@@ -20,7 +20,7 @@ const Footer = () => {
             <FaInstagram className="icon"/>
             </a>
         </div >
-        <div className="rights text-dark">
+        <div className="right text-dark">
         <h6  >
         Copyright © Built By Gopal Choudhary-2024. All Rights Reserved.
         </h6>

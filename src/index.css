@@ -29,7 +29,7 @@ a{
 	} 
 
     .nav_bar .left .nav_items {
-        margin: -22%;
+        margin: -25%;
         padding: 0.5rem;
         font-size: 2rem;
         font-weight: bold;
@@ -37,7 +37,7 @@ a{
     }
 
 .nav_bar .right .nav_items {
-    margin: 3%;
+    margin: 2%;
     padding: 0.5rem;
     font-size: 2rem;
     font-weight: bold;
@@ -71,8 +71,8 @@ a{
 
 .home .right .img img {
     margin: -15vb;
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 600px;
     border-radius: 100%;
 }
 
@@ -87,7 +87,7 @@ a{
 }
 
 .about .abut-right {
-    height: 22rem;
+    height: 25rem;
     text-align: center;
     width: 100%;
     text-align: center;
@@ -95,10 +95,13 @@ a{
     margin: -15vb;
 }
 
+.about .abut-left{
+    margin: -8vb;
+}
 
 .about .abut-left .abut-img img {
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 600px;
     border-radius: 100%;
 }
 
@@ -172,9 +175,9 @@ a{
 
 /* Footer Element Css */
 .footer{
-    bottom: 0;
+    bottom: 0%;
     width: 100%;
-    height: 13.5vh;
+    height: 18vh;
     background-color: #f4f1de;
     justify-content: center;
 }
@@ -198,7 +201,7 @@ a{
     color: grey;
 }
 
-.footer .rights {
+.footer .right {
     display: flex;
     justify-content: center;
     align-items: center;
