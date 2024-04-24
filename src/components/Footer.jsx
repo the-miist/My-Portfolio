@@ -5,10 +5,7 @@ import { MdEmail } from 'react-icons/md';
 const Footer = () => {
   return (
     <>
-    <div className="footer"
-    // data-aos="fade-up"
-    // data-aos-duration="1000"
-    >
+    <div className="footer" id='contact'>
         <div className="contact-item text-dark">
             <a href='https://github.com/the-miist' className="icons">
             <FaGithub className="icon" />

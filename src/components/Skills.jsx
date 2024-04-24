@@ -5,9 +5,9 @@ import SkillCard from './SkillCard';
 const Skills = () => {
   return (
     <>
-      <div className="container skills my-5">
+      <div className="container skills my-5" id='skills'>
         <h1 style={{display:"flex", justifyContent:"center"}} >Skills</h1>
-        <div className="items">
+        <div className="items my-3">
             {
             Skill.map((data)=>{
                 return(

@@ -17,7 +17,7 @@ a{
     justify-content: space-around;
     align-items: center;
     gap: 1.2rem;
-    height:  10vh ; 
+    height:  8vh ; 
     list-style: none;
     top: 0;
 }
@@ -50,7 +50,7 @@ a{
 
 /* Home Element Css */
 .home{
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,6 +70,7 @@ a{
 }
 
 .home .right .img img {
+    margin: -15vb;
     height: 700px;
     width: 700px;
     border-radius: 100%;

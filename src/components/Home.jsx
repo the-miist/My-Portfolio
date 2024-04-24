@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container home my-3" >
+      <div className="container home my-3" id="home">
         <div className="left" 
         data-aos="fade-down-right"
         data-aos-duration="1000">

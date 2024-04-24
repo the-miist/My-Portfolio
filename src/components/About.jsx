@@ -3,7 +3,8 @@ import React from 'react'
 const About = () => {
   return (
     <>
-      <h1 className='my-5' style={{display:"flex", justifyContent:"center"}} >About Me</h1>
+    <div className="container" id='about'>
+      <h1 className="my-5" style={{display:"flex", justifyContent:"center"}} >About Me</h1>
       <div className="container about my-3">
       <div className="abut-left"
       data-aos="fade-up-right"
@@ -19,6 +20,7 @@ const About = () => {
                  Seeking to advance a growing tech career as a Software Developer in a competitive environment.
             </h1>
         </div>
+      </div>
       </div>
     </>
   )

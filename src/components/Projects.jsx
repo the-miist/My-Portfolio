@@ -5,9 +5,9 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
   return (
     <>
-      <div className="container proj my-5">
+      <div className="container proj my-5" id='projects'>
         <h1 style={{display:"flex", justifyContent:"center"}} >Projects</h1>
-            <div className="row my-5 ">
+            <div className="row my-3 ">
                 {
                 projects.map((data)=>{
                     return(
