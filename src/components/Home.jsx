@@ -9,8 +9,8 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: ['Welcome Everyone,', 'Welcome To My Creative Realm :)'],
-      typespeed: 100,
-      backspeed: 100,
+      typespeed: 1000,
+      backspeed: 1000,
       loop: true,
       smartBackspace: true,
     };
